@@ -63,7 +63,7 @@ HTML svg element is a container for SVG graphics.
 1. window.localStorage - stores data with no expiration date
 2. window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
 
-write code(localStorage.html) for above using localStorage
+write code(localStorage.html) for above using localStorage <br>
 write code(sessionStorage.html) for above using sessionStorage
 
 
