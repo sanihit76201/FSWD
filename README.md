@@ -54,6 +54,17 @@ HTML svg element is a container for SVG graphics.
 5. SVG Logo
 
  write code(SVG.html) for above using svg 
+ 
+ ### Web Storage
+ 
+ With web storage, web applications can store data locally within the user's browser.<br>
+#### web storage provides two objects for storing data on the browser
+
+1. window.localStorage - stores data with no expiration date
+2. window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+
+write code(localStorage.html) for above using localStorage
+write code(sessionStorage.html) for above using sessionStorage
 
 
 
