@@ -30,4 +30,18 @@ step 2: write code for audio elemets  [audio.html] <br>
 
 step 3: run the file using browser <br>
 
+### Canvas
+
+HTML canvas tag is used to draw graphics, on the fly, via JavaScript <br>
+1. Colors, Styles, and Shadows
+2. Line Styles
+3. Rectangles
+4. Paths
+5. Transformations
+6. Text
+7. Image Drawing
+8. Image Drawing
+
+write code(canvas.html) for above using canvas methods 
+
 
