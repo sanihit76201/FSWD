@@ -44,4 +44,16 @@ HTML canvas tag is used to draw graphics, on the fly, via JavaScript <br>
 
 write code(canvas.html) for above using canvas methods 
 
+### SVG (Scalable Vector Graphics)
+
+HTML svg element is a container for SVG graphics.
+1. SVG Circle
+2. SVG Rectangle
+3. SVG Rounded Rectangle
+4. SVG Star
+5. SVG Logo
+
+ write code(SVG.html) for above using svg 
+
+
 
