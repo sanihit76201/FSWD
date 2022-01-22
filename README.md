@@ -79,5 +79,15 @@ HTML svg element is a container for SVG graphics.
 write code(localStorage.html) for above using localStorage <br>
 write code(sessionStorage.html) for above using sessionStorage
 
+## Drag & Drop
+
+Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location.
+
+div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" <br>
+img id="drag1" src="logo.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69" <br>
+
+write code (drag_drop.html) to drag logo to div <br>
+
+
 
 
