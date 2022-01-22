@@ -88,6 +88,14 @@ img id="drag1" src="logo.jpg" draggable="true" ondragstart="drag(event)" width="
 
 write code (drag_drop.html) to drag logo to div <br>
 
+## Geo Location.
+HTML Geolocation API is used to locate a user's position <br>
 
+Check if Geolocation is supported <br>
+-If supported, run the getCurrentPosition() method. If not, display a message to the user <br>
+-If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)<br>
+-The showPosition() function outputs the Latitude and Longitude<br>
+
+write code (location.html) to print lattitude and longitude <br>
 
 
