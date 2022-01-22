@@ -15,7 +15,7 @@ mongodb https://www.mongodb.com/try/download/community <br/>
 
 ## Configure git and connect to github
 Step 1: install git <br>
-Step 2: run the follwing commands in your command propmt<br>
+Step 2: run the following commands in your command prompt<br>
        - git clone https://github.com/{username}/FSWD.git <br>
        - git config --global user.name "{username}" <br>
        - git config --global user.email "MY_NAME@example.com" <br>
