@@ -17,7 +17,7 @@ mongodb https://www.mongodb.com/try/download/community <br/>
 Step 1: install git <br>
 Step 2: run the follwing commands in your command propmt<br>
        - git clone https://github.com/{username}/FSWD.git <br>
-       - git git config --global user.name "{username}" <br>
+       - git config --global user.name "{username}" <br>
        - git config --global user.email "MY_NAME@example.com" <br>
        - git pull origin main <br>
        - git add . <br>
