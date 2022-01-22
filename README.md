@@ -13,6 +13,19 @@ git - Installation guide https://git-scm.com/ <br/>
 node.js - Download page https://nodejs.org/en/ <br/>
 mongodb https://www.mongodb.com/try/download/community <br/>
 
+## Congigure git and connect to github
+Step 1: install git <br>
+Step 2: run the follwing commands in your command propmt<br>
+        git clone https://github.com/{username}/FSWD.git <br>
+        git git config --global user.name "{username}" <br>
+        git config --global user.email "MY_NAME@example.com" <br>
+        git pull origin main <br>
+        git add . <br>
+        git commit -m " Your message" <br>
+        git push origin main<br>
+Step 3 open Your git hub repository and see the changes
+
+
 ## Introduction to HTML5 
 ### video elemets
 
