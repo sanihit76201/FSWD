@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<head>
+    <meta charset="utf-8" />
+    <title>Spotify</title>
+</head>
+<style>
+    audio{
+       width:1000px;
+
+    }
+</style>
+<body style="background-color:darkgray;">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="file:///C:/Users/SANIHIT/OneDrive/Desktop/FSWD%20PROGRAMS/img.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Spotify
+            </a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="btn-group" role="group" style="float:right">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Options
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Upload</a></li>
+                    <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br />
+
+    <div class="d-grid gap-1 col-2 mx-auto" style="float:left; align-self:center">
+        <button class="btn btn-primary" type="button">Home</button><br />
+        <button class="btn btn-primary" type="button">Your Library</button><br />
+        <button class="btn btn-primary" type="button">Liked Songs</button><br />
+        <button class="btn btn-primary" type="button">Your Episodes</button>
+    </div>
+    <h1>Good morning</h1><br />
+
+    <h3>Your albums</h3>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="container overflow-hidden">
+            <div class="row gy-5" style="color:burlywood">
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">Your Liked Songs</div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">Feelings</div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">This is Avicii</div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">A Song For Every Moon</div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">This is Martin Garrix</div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 border bg-dark">Follow</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute bottom-0 start-50 translate-middle-x">
+        <audio controls>
+            <source src="horse.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+</html>
